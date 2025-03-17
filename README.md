@@ -1,57 +1,74 @@
 # Digital Logic Calculator
 
-A web-based calculator for digital logic operations including basic gates, half/full adders, and half/full subtractors.
+A web-based calculator for digital logic operations including basic gates, adders, subtractors, and comparators.
 
 ## Features
 
-- Basic Logic Gates (AND, OR, NOT, NAND, NOR, XOR)
-- Half Adder
-- Full Adder
-- Half Subtractor
-- Full Subtractor
+- Basic Logic Gates:
+  - AND Gate
+  - OR Gate
+  - NOT Gate
+  - NAND Gate
+  - NOR Gate
+  - XOR Gate
 
-## Setup Instructions
+- Adders & Subtractors:
+  - Half Adder
+  - Full Adder
+  - Half Subtractor
+  - Full Subtractor
 
-1. Make sure you have Python installed on your system (Python 3.6 or higher)
+- Comparators:
+  - 2-Bit Comparator
 
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Technologies Used
+
+- Python (Flask)
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+- Font Awesome
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/digital_logic_calculator.git
+cd digital_logic_calculator
+```
+
+2. Install the required packages:
+```bash
+pip install -r requirements.txt
+```
 
 3. Run the application:
-   ```bash
-   python app.py
-   ```
+```bash
+python app.py
+```
 
-4. Open your web browser and navigate to:
-   ```
-   http://localhost:5000
-   ```
+4. Open your browser and navigate to:
+```
+http://127.0.0.1:5000
+```
 
-## How to Use
+## Usage
 
 1. Select the desired operation from the dropdown menu
-2. Set the input values using the checkboxes:
-   - Input A
-   - Input B
-   - Carry/Borrow In (only for Full Adder and Full Subtractor)
-3. Click the "Calculate" button to see the results
+2. Input the required binary values using the radio buttons
+3. Click "Calculate" to see the results
+4. Results will be displayed in both binary and decimal format (where applicable)
 
-## Operations Available
+## Contributing
 
-- **Basic Gates:**
-  - AND: Output is 1 only if both inputs are 1
-  - OR: Output is 1 if at least one input is 1
-  - NOT: Inverts the input
-  - NAND: Inverted AND operation
-  - NOR: Inverted OR operation
-  - XOR: Output is 1 if inputs are different
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- **Adders:**
-  - Half Adder: Adds two bits, produces sum and carry
-  - Full Adder: Adds three bits (including carry in), produces sum and carry
+## License
 
-- **Subtractors:**
-  - Half Subtractor: Subtracts two bits, produces difference and borrow
-  - Full Subtractor: Subtracts three bits (including borrow in), produces difference and borrow 
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Authors
+
+- Karan-2783
+- Kartik-2785 
